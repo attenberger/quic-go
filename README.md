@@ -2,12 +2,6 @@
 
 <img src="docs/quic.png" width=303 height=124>
 
-[![Godoc Reference](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/attenberger/quic-go)
-[![Travis Build Status](https://img.shields.io/travis/attenberger/quic-go/master.svg?style=flat-square&label=Travis+build)](https://travis-ci.org/attenberger/quic-go)
-[![CircleCI Build Status](https://img.shields.io/circleci/project/github/attenberger/quic-go.svg?style=flat-square&label=CircleCI+build)](https://circleci.com/gh/attenberger/quic-go)
-[![Windows Build Status](https://img.shields.io/appveyor/ci/attenberger/quic-go/master.svg?style=flat-square&label=windows+build)](https://ci.appveyor.com/project/attenberger/quic-go/branch/master)
-[![Code Coverage](https://img.shields.io/codecov/c/github/attenberger/quic-go/master.svg?style=flat-square)](https://codecov.io/gh/attenberger/quic-go/)
-
 quic-go is an implementation of the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol in Go. It roughly implements the [IETF QUIC draft](https://github.com/quicwg/base-drafts), although we don't fully support any of the draft versions at the moment.
 
 ## Version compatibility
