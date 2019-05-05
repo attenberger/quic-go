@@ -241,6 +241,9 @@ func (s *receiveStream) handleStreamFrameImpl(frame *wire.StreamFrame) (bool /* 
 		return false, err
 	}
 	s.signalRead()
+	if frame.FinBit {
+		return true, nil
+	}
 	return false, nil
 }
 

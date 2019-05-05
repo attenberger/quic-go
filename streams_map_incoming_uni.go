@@ -125,9 +125,9 @@ func (m *incomingUniStreamsMap) DeleteStream(id protocol.StreamID) error {
 
 func (m *incomingUniStreamsMap) deleteStream(id protocol.StreamID) error {
 	if _, ok := m.streams[id]; !ok {
-		return fmt.Errorf("Tried to delete unknown stream %d", id)
+		return nil
+		//return fmt.Errorf("Tried to delete unknown stream %d", id)
 	}
-
 	// Don't delete this stream yet, if it was not yet accepted.
 	// Just save it to streamsToDelete map, to make sure it is deleted as soon as it gets accepted.
 	if id >= m.nextStreamToAccept {
