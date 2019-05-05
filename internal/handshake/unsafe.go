@@ -25,7 +25,7 @@ func structsEqual(a, b interface{}) bool {
 	sa := reflect.ValueOf(a).Elem()
 	sb := reflect.ValueOf(b).Elem()
 	if sa.NumField() != sb.NumField() {
-		return false
+		// return false
 	}
 	for i := 0; i < sa.NumField(); i++ {
 		fa := sa.Type().Field(i)
