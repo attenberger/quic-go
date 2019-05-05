@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/attenberger/quic-go/internal/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

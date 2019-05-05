@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/attenberger/quic-go/internal/protocol"
+	"github.com/attenberger/quic-go/internal/utils"
 )
 
 // A NewTokenFrame is a NEW_TOKEN frame

@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	quic "github.com/lucas-clemente/quic-go"
-	quicproxy "github.com/lucas-clemente/quic-go/integrationtests/tools/proxy"
-	"github.com/lucas-clemente/quic-go/internal/testdata"
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	quic "github.com/attenberger/quic-go"
+	quicproxy "github.com/attenberger/quic-go/integrationtests/tools/proxy"
+	"github.com/attenberger/quic-go/internal/testdata"
+	"github.com/attenberger/quic-go/internal/utils"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

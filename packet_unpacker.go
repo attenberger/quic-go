@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/lucas-clemente/quic-go/internal/handshake"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/attenberger/quic-go/internal/handshake"
+	"github.com/attenberger/quic-go/internal/protocol"
+	"github.com/attenberger/quic-go/internal/utils"
+	"github.com/attenberger/quic-go/internal/wire"
 )
 
 type unpackedPacket struct {

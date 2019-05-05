@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"crypto/rand"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/attenberger/quic-go/internal/protocol"
+	"github.com/attenberger/quic-go/internal/utils"
 )
 
 // ComposeVersionNegotiation composes a Version Negotiation

@@ -12,9 +12,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/testdata"
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/attenberger/quic-go/internal/protocol"
+	"github.com/attenberger/quic-go/internal/testdata"
+	"github.com/attenberger/quic-go/internal/utils"
 	"github.com/marten-seemann/qtls"
 
 	. "github.com/onsi/ginkgo"
